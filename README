@@ -1,30 +1,43 @@
 # Karbon Twilight v0.9.1 (Twilight)
 
-  <a href="https://agustealo.github.io"><img src="https://agustealo.github.io/images/Web-design-and-development-using-the-latest-internet-technologies.png" alt="Karbon Twilight Demo" width="600"></a>
-
-![Version](https://img.shields.io/github/v/release/agustealo/jekyll-twilight)  
-![License: MIT](https://img.shields.io/github/license/agustealo/jekyll-twilight)  
-![Downloads](https://img.shields.io/github/downloads/agustealo/jekyll-twilight/total)  
+![Version](https://img.shields.io/github/v/release/agustealo/jekyll-twilight)
+![License: MIT](https://img.shields.io/github/license/agustealo/jekyll-twilight)
+![Downloads](https://img.shields.io/github/downloads/agustealo/jekyll-twilight/total)
 [![Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue)](https://agustealo.github.io)
+
+<a href="https://agustealo.github.io"><img src="https://agustealo.github.io/images/Web-design-and-development-using-the-latest-internet-technologies.png" alt="Karbon Twilight Demo" width="600"></a>
 
 **Karbon Twilight** is a lightweight, **vanilla Jekyll** theme reimagined for the modern web—minimal, SEO-friendly, and AI-ready. Perfect for blogs, portfolios, and documentation sites seeking lightning-fast performance and zero server-side overhead.
 
 ---
 
+## 📚 Table of Contents
+1. [Why Karbon Twilight?](#-why-karbon-twilight)
+2. [Live Demo](#-live-demo)
+3. [Download & Installation](#-download--installation)
+4. [Features](#-features)
+5. [Configuration](#-configuration)
+6. [Screenshots](#-screenshots)
+7. [Contributing](#-contributing)
+8. [Support](#-support)
+9. [License](#-license)
+
+---
+
 ## 🔥 Why Karbon Twilight?
 
-- **Blazing Fast** – Static pages mean millisecond load times.  
-- **Rock-Solid Security** – No database, no dynamic code.  
-- **GitHub Pages–First** – Free hosting & instant deploys.  
-- **Developer-Friendly** – Markdown-driven workflow, flexible layouts.  
-- **AI-Ready** – Integrates seamlessly with generative-AI pipelines.  
+- **Blazing Fast** – Static pages mean millisecond load times.
+- **Rock-Solid Security** – No database, no dynamic code.
+- **GitHub Pages–First** – Free hosting & instant deploys.
+- **Developer-Friendly** – Markdown-driven workflow, flexible layouts.
+- **AI-Ready** – Integrates seamlessly with generative-AI pipelines.
 - **Fully Responsive** – Pixel-perfect on every device.
 
 ---
 
 ## 🎥 Live Demo
 
-Explore a working example:  
+Explore a working example:
 ➡️ https://agustealo.github.io
 
 ---
@@ -39,6 +52,7 @@ cd my-site
 
 ### 2. Install dependencies
 ```bash
+gem install bundler jekyll
 bundle install
 ```
 
@@ -48,7 +62,13 @@ bundle exec jekyll serve
 ```
 Visit <http://localhost:4000> in your browser.
 
-### 4. Deploy to GitHub Pages
+### 4. Build for production
+```bash
+bundle exec jekyll build
+```
+The generated site appears in the `_site/` folder (ignored in version control).
+
+### 5. Deploy to GitHub Pages
 Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `_config.yml`.
 
 > **Pro tip:** You can also scaffold directly:
@@ -62,17 +82,18 @@ Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `
 
 ## 🚀 Features
 
-| Category         | Highlights                                                  |
-|------------------|-------------------------------------------------------------|
-| **Design**       | Minimalist, distraction-free interface                      |
-| **Performance**  | Optimized assets, no runtime JS frameworks                  |
-| **SEO**          | Semantic HTML, meta tags, clean URLs                        |
-| **Social**       | Built-in share buttons and Open Graph support               |
-| **Customization**| Configurable layouts, CSS variables                         |
-| **Markdown**     | Full Markdown support with Liquid templating                |
-| **Widgets**      | Modular includes for sidebars, footers, components          |
-| **Accessibility**| WAI-ARIA roles, keyboard navigable                          |
-| **AI-Friendly**  | Ideal for integration with AI content generation tools      |
+| Category         | Highlights                                   |
+|------------------|-----------------------------------------------|
+| **Design**       | Minimalist, distraction-free interface        |
+| **Performance**  | Optimized assets, no runtime JS frameworks    |
+| **SEO**          | Semantic HTML, meta tags, clean URLs          |
+| **Social**       | Built-in share buttons and Open Graph support |
+| **Customization**| Configurable layouts, CSS variables           |
+| **Markdown**     | Full Markdown support with Liquid templating  |
+| **Widgets**      | Modular includes for sidebars and footers     |
+| **Accessibility**| WAI-ARIA roles, keyboard navigable            |
+| **Helpful 404**  | Simple 404 page for broken links              |
+| **AI-Friendly**  | Ideal for integration with AI content tools   |
 
 ---
 
@@ -98,7 +119,7 @@ sass:
     - _sass
 ```
 
-Override CSS variables in `assets/css/JekyllTwilight.css`:
+Override CSS variables in `css/karbon-portfolio.css`:
 
 ```css
 :root {
@@ -106,6 +127,8 @@ Override CSS variables in `assets/css/JekyllTwilight.css`:
   --accent-color:  #3498db;
 }
 ```
+
+Update `404.html` if you want a personalized not-found page.
 
 ---
 
@@ -123,7 +146,7 @@ Override CSS variables in `assets/css/JekyllTwilight.css`:
 1. Fork the repository  
 2. Create a feature branch: `git checkout -b feature/your-feature`  
 3. Commit your changes: `git commit -m "Add your feature"`  
-4. Push and open a Pull Request  
+4. Push and open a Pull Request
 
 See [CONTRIBUTING.md](https://github.com/agustealo/Karbon/blob/main/CONTRIBUTING.md) for full guidelines.
 

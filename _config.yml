@@ -1,3 +1,19 @@
+title: "My Awesome Site"
+description: "A blazing fast Jekyll site powered by Karbon Twilight."
+url: "" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site
+# Build settings
+theme: jekyll-twilight
+
+author:
+  name: "Your Name"
+  email: you@example.com
+
+# Social links
+social:
+  twitter: your_handle
+  github: your_username
+
 sass:
   sass_dir: _sass
   style: compressed
