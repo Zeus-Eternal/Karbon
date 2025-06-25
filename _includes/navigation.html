@@ -2,15 +2,15 @@
   <div class="sticky-nav">
     <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
     <div id="logo" class="col-12 col-md-3">
-      <a id="goUp" href="{{ HOME_PATH }}" title="Jekyll Twilight | Responsive One Page Template">Agustealo</a>
+      <a id="goUp" href="{{ '/' | relative_url }}" title="Jekyll Twilight | Responsive One Page Template">Agustealo</a>
     </div>
     <nav id="menu">
-      <ul id="menu-nav" col-12 col-md-9>
-        <li class="current"><a href="home-slider">Home</a></li>
-        <li><a href="{{ HOME_PATH }}/about.html">About Me</a></li>
-        <li><a href="latest">Latest Dev</a></li>
-        <li><a href="blog">Blog</a></li>
-        <li><a href="shortcodes.html" class="external">Design Blog</a></li>
+      <ul id="menu-nav" class="col-12 col-md-9">
+        <li class="current"><a href="#home-slider">Home</a></li>
+        <li><a href="{{ '/about.html' | relative_url }}">About Me</a></li>
+        <li><a href="{{ '/latest' | relative_url }}">Latest Dev</a></li>
+        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/shortcodes.html' | relative_url }}" class="external">Design Blog</a></li>
       </ul>
     </nav>
   </div>

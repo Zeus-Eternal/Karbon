@@ -26,6 +26,16 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must ends with two \r.
+# Jekyll build files
+_site/
+.jekyll-cache/
+.sass-cache/
+# Bundler dependencies
+/vendor/
+# Ruby artifacts
+*.gem
+
+*.scssc
 Icon
 
 # Thumbnails

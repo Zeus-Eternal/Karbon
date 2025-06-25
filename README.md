@@ -1,0 +1,168 @@
+# Karbon Twilight v0.9.1 (Twilight)
+
+![Version](https://img.shields.io/github/v/release/agustealo/jekyll-twilight)
+![License: MIT](https://img.shields.io/github/license/agustealo/jekyll-twilight)
+![Downloads](https://img.shields.io/github/downloads/agustealo/jekyll-twilight/total)
+[![Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue)](https://agustealo.github.io)
+
+<a href="https://agustealo.github.io"><img src="https://agustealo.github.io/images/Web-design-and-development-using-the-latest-internet-technologies.png" alt="Karbon Twilight Demo" width="600"></a>
+
+**Karbon Twilight** is a lightweight, **vanilla Jekyll** theme reimagined for the modern web—minimal, SEO-friendly, and AI-ready. Perfect for blogs, portfolios, and documentation sites seeking lightning-fast performance and zero server-side overhead.
+
+---
+
+## 📚 Table of Contents
+1. [Why Karbon Twilight?](#why-karbon-twilight)
+2. [Live Demo](#live-demo)
+3. [Download & Installation](#download--installation)
+4. [Features](#features)
+5. [Configuration](#configuration)
+6. [Screenshots](#screenshots)
+7. [Contributing](#contributing)
+8. [Support](#support)
+9. [License](#license)
+
+---
+
+## 🔥 Why Karbon Twilight?
+
+- **Blazing Fast** – Static pages mean millisecond load times.
+- **Rock-Solid Security** – No database, no dynamic code.
+- **GitHub Pages–First** – Free hosting & instant deploys.
+- **Developer-Friendly** – Markdown-driven workflow, flexible layouts.
+- **AI-Ready** – Integrates seamlessly with generative-AI pipelines.
+- **Fully Responsive** – Pixel-perfect on every device.
+
+---
+
+## 🎥 Live Demo
+
+Explore a working example:
+➡️ https://agustealo.github.io
+
+---
+
+## 📥 Download & Installation
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/agustealo/jekyll-twilight.git my-site
+cd my-site
+```
+
+### 2. Install dependencies
+```bash
+gem install bundler jekyll
+bundle install
+```
+
+### 3. Preview locally
+```bash
+bundle exec jekyll serve
+```
+Visit <http://localhost:4000> in your browser.
+
+### 4. Build for production
+```bash
+bundle exec jekyll build
+```
+The generated site appears in the `_site/` folder (ignored in version control).
+
+### 5. Deploy to GitHub Pages
+Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `_config.yml`.
+
+> **Pro tip:** You can also scaffold directly:
+> ```bash
+> jekyll new my-blog https://github.com/agustealo/jekyll-twilight.git
+> cd my-blog
+> bundle exec jekyll serve
+> ```
+
+---
+
+## 🚀 Features
+
+| Category         | Highlights                                   |
+|------------------|-----------------------------------------------|
+| **Design**       | Minimalist, distraction-free interface        |
+| **Performance**  | Optimized assets, no runtime JS frameworks    |
+| **SEO**          | Semantic HTML, meta tags, clean URLs          |
+| **Social**       | Built-in share buttons and Open Graph support |
+| **Customization**| Configurable layouts, CSS variables           |
+| **Markdown**     | Full Markdown support with Liquid templating  |
+| **Widgets**      | Modular includes for sidebars and footers     |
+| **Accessibility**| WAI-ARIA roles, keyboard navigable            |
+| **Helpful 404**  | Simple 404 page for broken links              |
+| **AI-Friendly**  | Ideal for integration with AI content tools   |
+
+---
+
+## 🛠️ Configuration
+
+Edit `_config.yml` to tune your site:
+
+```yaml
+title: "My Awesome Site"
+description: "A blazing fast Jekyll site powered by Karbon Twilight."
+theme: jekyll-twilight
+author:
+  name: "Your Name"
+  email: you@example.com
+# Social links
+social:
+  twitter: your_handle
+  github:  your_username
+# Color customization
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+```
+
+Override CSS variables in `css/karbon-portfolio.css`:
+
+```css
+:root {
+  --primary-color: #e67e22;
+  --accent-color:  #3498db;
+}
+```
+
+Update `404.html` if you want a personalized not-found page.
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://agustealo.github.io/images/karbon-twilight-screenshot-1.png" alt="Home page" width="48%">
+  <img src="https://agustealo.github.io/images/karbon-twilight-screenshot-2.png" alt="Post layout" width="48%">
+</p>
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m "Add your feature"`
+4. Push and open a Pull Request
+
+See [CONTRIBUTING.md](https://github.com/agustealo/Karbon/blob/main/CONTRIBUTING.md) for full guidelines.
+
+---
+
+## 💬 Support
+
+- **Discussions & Issues**: https://github.com/agustealo/jekyll-twilight/discussions
+- **Email**: agustealo@example.com
+
+---
+
+## 📜 License
+
+[MIT License](LICENSE) © Agustealo Johnson
+
+---
+
+<small>Built with ❤️ by [Agustealo Johnson](https://agustealo.com) • Inspired by a decade of Karbon innovation • Powered by Jekyll</small>
