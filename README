@@ -39,6 +39,7 @@ cd my-site
 
 ### 2. Install dependencies
 ```bash
+gem install bundler jekyll
 bundle install
 ```
 
@@ -48,7 +49,13 @@ bundle exec jekyll serve
 ```
 Visit <http://localhost:4000> in your browser.
 
-### 4. Deploy to GitHub Pages
+### 4. Build for production
+```bash
+bundle exec jekyll build
+```
+The generated site appears in the `_site/` folder (ignored in version control).
+
+### 5. Deploy to GitHub Pages
 Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `_config.yml`.
 
 > **Pro tip:** You can also scaffold directly:
@@ -62,17 +69,18 @@ Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `
 
 ## 🚀 Features
 
-| Category         | Highlights                                                  |
-|------------------|-------------------------------------------------------------|
-| **Design**       | Minimalist, distraction-free interface                      |
-| **Performance**  | Optimized assets, no runtime JS frameworks                  |
-| **SEO**          | Semantic HTML, meta tags, clean URLs                        |
-| **Social**       | Built-in share buttons and Open Graph support               |
-| **Customization**| Configurable layouts, CSS variables                         |
-| **Markdown**     | Full Markdown support with Liquid templating                |
-| **Widgets**      | Modular includes for sidebars, footers, components          |
-| **Accessibility**| WAI-ARIA roles, keyboard navigable                          |
-| **AI-Friendly**  | Ideal for integration with AI content generation tools      |
+| Category         | Highlights                                   |
+|------------------|-----------------------------------------------|
+| **Design**       | Minimalist, distraction-free interface        |
+| **Performance**  | Optimized assets, no runtime JS frameworks    |
+| **SEO**          | Semantic HTML, meta tags, clean URLs          |
+| **Social**       | Built-in share buttons and Open Graph support |
+| **Customization**| Configurable layouts, CSS variables           |
+| **Markdown**     | Full Markdown support with Liquid templating  |
+| **Widgets**      | Modular includes for sidebars and footers     |
+| **Accessibility**| WAI-ARIA roles, keyboard navigable            |
+| **Helpful 404**  | Simple 404 page for broken links              |
+| **AI-Friendly**  | Ideal for integration with AI content tools   |
 
 ---
 
@@ -98,7 +106,7 @@ sass:
     - _sass
 ```
 
-Override CSS variables in `assets/css/JekyllTwilight.css`:
+Override CSS variables in `css/karbon-portfolio.css`:
 
 ```css
 :root {
@@ -106,6 +114,8 @@ Override CSS variables in `assets/css/JekyllTwilight.css`:
   --accent-color:  #3498db;
 }
 ```
+
+Update `404.html` if you want a personalized not-found page.
 
 ---
 
