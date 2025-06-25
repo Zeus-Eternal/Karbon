@@ -1,4 +1,3 @@
----
 # Karbon Twilight v0.9.1 (Twilight)
 
 ![Version](https://img.shields.io/github/v/release/agustealo/jekyll-twilight)
@@ -10,7 +9,6 @@
 
 **Karbon Twilight** is a lightweight, **vanilla Jekyll** theme reimagined for the modern web—minimal, SEO-friendly, and AI-ready. Perfect for blogs, portfolios, and documentation sites seeking lightning-fast performance and zero server-side overhead.
 
----
 
 ## 📚 Table of Contents
 1. [Why Karbon Twilight?](#-why-karbon-twilight)
@@ -23,8 +21,6 @@
 8. [Support](#-support)
 9. [License](#-license)
 
----
-
 ## 🔥 Why Karbon Twilight?
 
 - **Blazing Fast** – Static pages mean millisecond load times.
@@ -34,14 +30,12 @@
 - **AI-Ready** – Integrates seamlessly with generative-AI pipelines.
 - **Fully Responsive** – Pixel-perfect on every device.
 
----
 
 ## 🎥 Live Demo
 
 Explore a working example:
 ➡️ https://agustealo.github.io
 
----
 
 ## 📥 Download & Installation
 
@@ -79,7 +73,6 @@ Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `
 > bundle exec jekyll serve
 > ```
 
----
 
 ## 🚀 Features
 
@@ -96,7 +89,6 @@ Just push to your `gh-pages` or `main` branch with `theme: jekyll-twilight` in `
 | **Helpful 404**  | Simple 404 page for broken links              |
 | **AI-Friendly**  | Ideal for integration with AI content tools   |
 
----
 
 ## 🛠️ Configuration
 
@@ -131,7 +123,6 @@ Override CSS variables in `css/karbon-portfolio.css`:
 
 Update `404.html` if you want a personalized not-found page.
 
----
 
 ## 📸 Screenshots
 
@@ -140,7 +131,6 @@ Update `404.html` if you want a personalized not-found page.
   <img src="https://agustealo.github.io/images/karbon-twilight-screenshot-2.png" alt="Post layout" width="48%">
 </p>
 
----
 
 ## 🤝 Contributing
 
@@ -151,19 +141,16 @@ Update `404.html` if you want a personalized not-found page.
 
 See [CONTRIBUTING.md](https://github.com/agustealo/Karbon/blob/main/CONTRIBUTING.md) for full guidelines.
 
----
 
 ## 💬 Support
 
 - **Discussions & Issues**: https://github.com/agustealo/jekyll-twilight/discussions  
 - **Email**: agustealo@example.com
 
----
 
 ## 📜 License
 
 [MIT License](LICENSE) © Agustealo Johnson
 
----
 
 <small>Built with ❤️ by [Agustealo Johnson](https://agustealo.com) • Inspired by a decade of Karbon innovation • Powered by Jekyll</small>
